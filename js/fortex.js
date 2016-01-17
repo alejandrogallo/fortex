@@ -1,4 +1,5 @@
 MathJax.Hub.Config({
+  jax: ["input/TeX", "output/SVG"/*"output/HTML-CSS"*/],
   tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
 
