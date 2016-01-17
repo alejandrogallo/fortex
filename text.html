@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Fortex</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body ng-controller="Widget" ng-app="fortex">
+
+
+
+    <div class="container">
+      <h3 class="page-header">$\TeX$ formula editor</h3>
+      <textarea class="form-control" ng-model="formula" id="" name="" rows="5"></textarea>
+
+      <h5>HTML Output</h5>
+      
+      <p contentEditable="true" ng-model="formula" mathjax-bind="formula" style="font-size: 3em" >
+      </p>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <!--BOOTSTRAP-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.js" type="text/javascript" charset="utf-8"></script>
+
+    <!--ANGULAR-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular.min.js" type="text/javascript" charset="utf-8"></script>
+
+
+    <!--Mathjax-->
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript" charset="utf-8"></script>
+
+    <!--MY SCRIPT-->
+    <script src="js/fortex.js"></script>
+  </body>
+</html>

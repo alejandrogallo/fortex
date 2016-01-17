@@ -5,7 +5,7 @@ MathJax.Hub.Config({
 
 angular.module('fortex', [])
 .controller("Widget", ["$scope", function ($scope) {
-  $scope.formula="\\int";
+  $scope.formula="\\int_\\mathbb{R} \\psi^*(x)\\psi (x) \\mathrm dx = 1";
 }])
 .directive("mathjaxBind", function() {
   return {
