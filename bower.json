@@ -1,0 +1,27 @@
+{
+  "name": "fortex",
+  "version": "0.0.1",
+  "authors": [
+    "alejandro gallo <alejandroamsg@hotmail.com>"
+  ],
+  "description": "Simple formula latex editor",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "latex",
+    "editor",
+    "formula",
+    "online",
+    "tex"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/alejandrogallo/fortex.git",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.8",
+    "jquery": "~2.2.0",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0",
+    "MathJax": "~2.6.0"
+  }
+}
